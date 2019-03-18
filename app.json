@@ -1,0 +1,15 @@
+{
+    "name": "LumenBin - Minimalistic pastebin service",
+    "description": "Open-source pastebin service build with Lumen",
+    "repository": "https://github.com/SobanVuex/lumen-bin",
+    "env": {
+        "APP_KEY": {
+            "description": "Application secret key.",
+            "generator": "secret"
+        }
+    },
+    "addons": [
+        "heroku-postgresql:hobby-dev",
+        "heroku-redis:hobby-dev"
+    ]
+}
